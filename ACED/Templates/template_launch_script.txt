@@ -1,0 +1,14 @@
+echo ("~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=")
+echo ("Running a custom bootstrap script.")
+echo ("SCENE: $scene")
+echo ("~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=")
+
+import "imports.bs"
+
+setscene($scene)
+setplayer(charlie)
+$scene.add(charlie)
+
+requeststateplaying()
+
+posthook()

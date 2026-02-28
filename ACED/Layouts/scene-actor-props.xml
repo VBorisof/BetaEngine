@@ -1,0 +1,16 @@
+<box id="right-pane">
+    <label class="props-label" id="scene-actor-props-label">@Actor@ Properties</label>
+    <text-input class="text-input" id="scene-actor-position-input" hint="Position" />
+    <text-input class="text-input" id="scene-actor-scale-input" hint="Scale" />
+    <text-input class="text-input" id="scene-actor-costume-input" hint="Costume" />
+    <text-input class="text-input" id="scene-actor-state-input" hint="State" />
+
+    <checkbox id="scene-actor-show-children-checkbox" text="Show Children" value="false" />
+
+    <text-button class="scene-add-button" id="scene-actor-add-child-button">Add Child</text-button>
+    <listview class="scene-list" id="scene-actor-children-list" />
+
+    <text-button class="scene-add-button" id="scene-actor-edit-script-button">Edit Script</text-button>
+    <text-button class="scene-add-button" id="scene-actor-edit-dialogue-button">Edit Dialogue</text-button>
+</box>
+

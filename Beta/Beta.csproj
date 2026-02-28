@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net8.0-android</TargetFrameworks>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <PublishAot>false</PublishAot>
+    <TieredCompilation>false</TieredCompilation>
+    <AssemblyName>Beta</AssemblyName>
+    <Nullable>enable</Nullable>
+	<MonoGamePlatform>DesktopGL;Android</MonoGamePlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../BDSM/bdsm.csproj" />
+    <ProjectReference Include="../Beta.Common/Beta.Common.csproj" />
+    <ProjectReference Include="../Beta.Logging/Beta.Logging.csproj" />
+    <ProjectReference Include="../Beta.Text/Beta.Text.csproj" />
+    <ProjectReference Include="../Beta.Input/Beta.Input.csproj" />
+    <ProjectReference Include="../Beta.Gui/Beta.Gui.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.29.3" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" PrivateAssets="All" Version="3.8.2.1105" />
+	<PackageReference Include="MonoGame.Framework.Android" Version="3.8.2.1105" />
+  </ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="MonoGame.Framework" />
+    <TrimmerRootAssembly Include="mscorlib" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  	<AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+  	<EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+  	<AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+  </PropertyGroup>
+</Project>

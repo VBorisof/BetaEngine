@@ -1,0 +1,5 @@
+<box id="right-pane">
+    <label class="props-label" id="scene-scalemap-label">Scalemap Properties</label>
+    <text-input class="text-input" id="scalemap-minscale-input" hint="Min Scale" />
+</box>
+

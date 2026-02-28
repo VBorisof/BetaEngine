@@ -1,0 +1,21 @@
+﻿actor $declname {
+    var name = "$name"
+    var color = "$color"
+
+    verb LOOK {
+
+    }
+
+    verb PICKUP {
+
+    }
+
+    verb TALK {
+
+    }
+
+    verb INTERACT {
+
+    }
+}
+

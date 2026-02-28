@@ -1,0 +1,28 @@
+#scene-actor-position-input {
+    position: 10, 40;    
+}
+#scene-actor-scale-input {
+    position: 10, 70;
+}
+#scene-actor-costume-input {
+    position: 10, 100;
+}
+#scene-actor-state-input {
+    position: 10, 130;
+}
+#scene-actor-show-children-checkbox {
+    position: 10, 160;
+}
+#scene-actor-add-child-button {
+    position: 10, 190;
+}
+#scene-actor-children-list {
+    position: 10, 210;
+}
+
+#scene-actor-edit-script-button {
+    position: 10, 340;
+}
+#scene-actor-edit-dialogue-button {
+    position: 10, 370;
+}

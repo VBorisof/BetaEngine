@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+	<MonoGamePlatform>DesktopGL;Android</MonoGamePlatform>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <TrimmerRootAssembly Include="MonoGame.Framework" />
+    <TrimmerRootAssembly Include="mscorlib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Beta.Common/Beta.Common.csproj" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.29.3" />
+  </ItemGroup>
+
+</Project>

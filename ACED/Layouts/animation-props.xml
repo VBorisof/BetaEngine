@@ -1,0 +1,6 @@
+<empty id="animation-props">
+    <label class="props-label" id="animation-props-label">Animation Properties</label>
+    <text-input class="text-input" id="animation-name-input" hint="Name..." />
+    <text-input class="text-input" id="animation-speed-input" hint="Speed..." />
+    <checkbox id="animation-repeat-checkbox" text="Repeat?"/>
+</empty>

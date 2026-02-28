@@ -1,0 +1,31 @@
+1. MonoGame
+
+    License: Microsoft Public License (Ms-PL)
+
+    Project: https://github.com/MonoGame/MonoGame
+
+    Notice: This license allows for the use and distribution of the MonoGame framework in both open-source and commercial projects.
+
+2. MonoGame.Extended
+
+    License: MIT License
+
+    Project: https://github.com/craftworkgames/MonoGame.Extended
+
+3. GtkSharp
+
+    License: GNU Lesser General Public License (LGPL) v2.1
+
+    Project: https://github.com/GtkSharp/GtkSharp
+
+    Note: Your use of GtkSharp as a library for editor tools does not require you to open-source your engine code under the LGPL.
+
+4. Google Protocol Buffers (Protobuf)
+
+    License: https://github.com/protocolbuffers/protobuf/blob/main/LICENSE
+
+5. .NET 8 (Runtime and Libraries)
+
+    License: MIT License
+
+    Project: https://github.com/dotnet/runtime

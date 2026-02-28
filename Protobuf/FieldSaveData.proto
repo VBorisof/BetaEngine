@@ -1,0 +1,9 @@
+syntax = "proto3";
+package Beta;
+option csharp_namespace = "BDSM.Runtime.SaveGames";
+
+message FieldSaveData {
+  map<string, string> stringFields = 1;
+  map<string, double> doubleFields = 2;
+  map<string, bool> boolFields = 3;
+}

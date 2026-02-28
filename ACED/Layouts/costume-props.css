@@ -1,0 +1,13 @@
+#costume-name-input {
+    position: 10, 40;
+}
+
+#costume-add-animation-button {
+    position: 10, 90;
+    size: 200, 20;
+}
+#costume-animations-list {
+    position: 10, 130;
+    size: 355, 100;
+}
+

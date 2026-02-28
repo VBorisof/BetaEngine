@@ -1,0 +1,15 @@
+#animation-props {
+    position: 10, 240;
+}
+
+#animation-name-input {
+    position: 0, 50;
+}
+
+#animation-speed-input {
+    position: 0, 80;
+}
+#animation-repeat-checkbox {
+    position: 0, 110;
+    color: "#ff0000ff";
+}

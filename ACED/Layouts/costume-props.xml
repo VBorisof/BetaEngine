@@ -1,0 +1,6 @@
+<box id="right-pane">
+    <label class="props-label" id="costume-props-label">Costume Properties</label>
+    <text-input class="text-input" id="costume-name-input" hint="Name..." />
+    <text-button id="costume-add-animation-button">Add Animation</text-button>
+    <listview id="costume-animations-list" />
+</box>

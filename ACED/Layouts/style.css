@@ -1,0 +1,66 @@
+* {
+    color: "372154A0";
+    text-color: "1777EDF0";
+    hover-text-color: "F53520FF";
+    border-color: "B62BEDFF";
+    child-item-height: 20;
+}
+ok-cancel-message-box {
+    position: 810, 400;
+    size: 300, 150;
+}
+
+dropdown {
+    child-item-height: 50;
+}
+text-button {
+    size: 200, 50;
+}
+
+.text-input {
+    size: 355, 20;
+}
+.props-label {
+    position: 10, 10;
+}
+
+#topbar  {
+    position: 0, 0;
+    size: 1920, 50;
+}
+#left-pane {
+    size: 375, 900;
+    position: 25, 100;
+}
+#right-pane {
+    size: 375, 900;
+    position: 1525, 100;
+}
+
+#actor-dropdown #scene-dropdown #view-dropdown #quit-button {
+    size: 200, 50;
+}
+
+#actor-dropdown {
+    position: 0, 0;
+}
+
+#scene-dropdown {
+    position: 201, 0;
+}
+
+#view-dropdown {
+    position: 402, 0;
+}
+
+#dryrun-checkbox {
+    position: 1385, 15;
+    size: 20, 20;
+    color: "ff0000";
+}
+#run-button {
+    position: 1518, 0;
+}
+#quit-button {
+    position: 1719, 0;
+}

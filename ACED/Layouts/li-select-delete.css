@@ -1,0 +1,15 @@
+.list-item {
+    position: 0, 0;
+}
+.list-item-label {
+    position: 0, 0;
+}
+
+.list-item-select-button {
+    position: 180, 0;
+    size: 60, 20;
+}
+.list-item-delete-button {
+    position: 250, 0;
+    size: 60, 20;
+}

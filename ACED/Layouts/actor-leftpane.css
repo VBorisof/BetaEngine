@@ -1,0 +1,17 @@
+﻿#actor-name-input {
+    position: 10, 40;
+}
+#actor-speed-input {
+    position: 10, 70;
+}
+
+
+#actor-add-costume-button {
+    position: 10, 140;
+    size: 200, 20;
+}
+#actor-costumes-list {
+    position: 10, 170;
+    size: 355, 100;
+}
+

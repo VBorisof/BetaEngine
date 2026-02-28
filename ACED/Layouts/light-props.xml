@@ -1,0 +1,8 @@
+<box id="right-pane">
+    <label class="props-label" id="light-props-label">Light Properties</label>
+    <text-input class="text-input" id="light-x-input" hint="X" />
+    <text-input class="text-input" id="light-y-input" hint="Y" />
+    <text-input class="text-input" id="light-z-input" hint="Z" />
+    <text-input class="text-input" id="light-color-input" hint="Color (HEX)" />
+</box>
+

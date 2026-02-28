@@ -1,0 +1,26 @@
+﻿<box id="left-pane">
+    <label class="props-label" id="scene-props-label">Scene Properties</label>
+    <text-input class="text-input" id="scene-name-input" hint="Name..." />
+    <text-button class="scene-add-button" id="scene-texture-button">TEX</text-button>
+
+    <text-button class="scene-add-button" id="scene-walkables-button">WAL</text-button>
+    <text-button class="scene-add-button" id="scene-scalemap-button">SCA</text-button>
+
+    <text-button class="scene-add-button" id="scene-add-exit-button">Add Exit</text-button>
+    <listview class="scene-list" id="scene-exits-list" />
+
+    <text-button class="scene-add-button" id="scene-add-actor-button">Add Actor</text-button>
+    <listview class="scene-list" id="scene-actors-list" />
+    
+    <text-button class="scene-add-button" id="scene-add-region-button">Add Region</text-button>
+    <listview class="scene-list" id="scene-regions-list" />
+
+    <text-button class="scene-add-button" id="scene-add-prop-button">Add Prop</text-button>
+    <listview class="scene-list" id="scene-props-list" />
+
+    <text-button class="scene-add-button" id="scene-add-walkbehind-button">Add Walkbehind</text-button>
+    <listview class="scene-list" id="scene-walkbehinds-list" />
+
+    <text-button class="scene-add-button" id="scene-add-light-button">Add Light</text-button>
+    <listview class="scene-list" id="scene-lights-list" />
+</box>

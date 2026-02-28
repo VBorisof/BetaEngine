@@ -1,0 +1,5 @@
+<box id="right-pane">
+    <label class="props-label" id="region-props-label">Region Properties</label>
+    <text-input class="text-input" id="region-name-input" hint="Name" />
+    <text-input class="text-input" id="region-times-active-input" hint="Times Active" />
+</box>

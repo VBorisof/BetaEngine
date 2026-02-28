@@ -1,0 +1,7 @@
+﻿<box id="left-pane">
+    <label class="props-label" id="actor-props-label">Actor Properties</label>
+    <text-input class="text-input" id="actor-name-input" hint="Name..." />
+    <text-input class="text-input" id="actor-speed-input" hint="Speed..." />
+    <text-button id="actor-add-costume-button">Add Costume</text-button>
+    <listview id="actor-costumes-list" />
+</box>

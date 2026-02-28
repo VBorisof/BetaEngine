@@ -1,0 +1,5 @@
+<box class="list-item">
+    <label class="list-item-label"></label>
+    <text-button class="list-item-select-button">select</text-button>
+    <text-button class="list-item-delete-button">delete</text-button>
+</box>

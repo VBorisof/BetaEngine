@@ -1,0 +1,13 @@
+scene $declname {
+    var music = ""
+    var name = "$name"
+
+    fun onEnter() {
+
+    }
+
+    fun exit(index) {
+        return true
+    }
+}
+

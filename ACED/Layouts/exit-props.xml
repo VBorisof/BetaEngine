@@ -1,0 +1,6 @@
+<box id="right-pane">
+    <label class="props-label" id="exit-props-label">Exit Properties</label>
+    <text-input class="text-input" id="exit-destination-input" hint="Destination" />
+    <text-input class="text-input" id="exit-index-input" hint="Index" />
+    <text-input class="text-input" id="exit-target-index-input" hint="Target Index" />
+</box>

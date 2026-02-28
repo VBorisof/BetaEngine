@@ -1,0 +1,25 @@
+<root>
+    <box id="topbar">
+        <dropdown name="Actor" id="actor-dropdown">
+            <text-button id="new-actor-button">New</text-button>
+            <text-button id="open-actor-button">Open</text-button>
+            <text-button id="export-actor-button">Export</text-button>
+        </dropdown>
+        <dropdown name="Scene" id="scene-dropdown">
+            <text-button id="new-scene-button">New</text-button>
+            <text-button id="open-scene-button">Open</text-button>
+            <text-button id="export-scene-button">Export</text-button>
+            <text-button id="export-scene-build-button">Export+Build</text-button>
+        </dropdown>    
+        <dropdown name="View" id="view-dropdown">
+            <text-button id="draw-walkables-button">Draw Walkables</text-button>
+            <text-button id="draw-exits-button">Draw Exits</text-button>
+            <text-button id="draw-actors-button">Draw Actors</text-button>
+            <text-button id="draw-scale-map-button">Draw Scale Map</text-button>
+        </dropdown>
+
+        <checkbox id="dryrun-checkbox" text="Dry Run" value="false" />
+        <text-button id="run-button">Run</text-button>
+        <text-button id="quit-button">Quit</text-button>
+    </box>
+</root>

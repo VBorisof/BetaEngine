@@ -1,0 +1,60 @@
+﻿.scene-add-button {
+    size: 200, 20;
+}
+.scene-list {
+    size: 355, 80;
+}
+
+#scene-name-input {
+    position: 10, 40;
+}
+#scene-texture-button {
+    position: 190, 10;
+    size: 55, 20;
+}
+#scene-walkables-button {
+    position: 245, 10;
+    size: 55, 20;
+}
+#scene-scalemap-button {
+    position: 300, 10;
+    size: 55, 20;
+}
+
+
+#scene-add-exit-button {
+    position: 10, 90;
+}
+#scene-exits-list {
+    position: 10, 120;
+}
+#scene-add-actor-button {
+    position: 10, 230;
+}
+#scene-actors-list {
+    position: 10, 260;
+}
+#scene-add-region-button {
+    position: 10, 370;
+}
+#scene-regions-list {
+    position: 10, 400;
+}
+#scene-add-prop-button {
+    position: 10, 510;
+}
+#scene-props-list {
+    position: 10, 540;
+}
+#scene-add-walkbehind-button {
+    position: 10, 650;
+}
+#scene-walkbehinds-list {
+    position: 10, 680;
+}
+#scene-add-light-button {
+    position: 10, 790;
+}
+#scene-lights-list {
+    position: 10, 820;
+}

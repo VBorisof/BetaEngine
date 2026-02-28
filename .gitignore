@@ -1,0 +1,13 @@
+bin/
+obj/
+Release/
+
+__pycache__/
+venv/
+
+tags
+
+.generated/
+.netcoredbg_hist
+.vs/
+.DS_Store

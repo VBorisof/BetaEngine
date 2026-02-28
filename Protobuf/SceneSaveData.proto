@@ -1,0 +1,11 @@
+syntax = "proto3";
+package Beta;
+option csharp_namespace = "Beta.Services.SaveGames.SaveGameDatas";
+
+import "FieldSaveData.proto";
+import "SceneEntitySaveData.proto";
+
+message SceneSaveData {
+  FieldSaveData fields = 1;
+  repeated SceneEntitySaveData entities = 2;
+}

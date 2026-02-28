@@ -1,0 +1,10 @@
+syntax = "proto3";
+package Beta;
+option csharp_namespace = "Beta.Services.SaveGames.SaveGameDatas";
+
+import "Vector2Surrogate.proto";
+
+message SceneEntitySaveData {
+  string entityName = 1;
+  Vector2Surrogate position = 2;
+}

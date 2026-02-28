@@ -1,0 +1,15 @@
+#light-prop-label {
+    position: 10, 40;
+}
+#light-x-input {
+    position: 10, 70;
+}
+#light-y-input {
+    position: 10, 100;
+}
+#light-z-input {
+    position: 10, 130;
+}
+#light-color-input {
+    position: 10, 170;
+}

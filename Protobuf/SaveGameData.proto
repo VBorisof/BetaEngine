@@ -1,0 +1,17 @@
+syntax = "proto3";
+package Beta;
+option csharp_namespace = "Beta.Services.SaveGames.SaveGameDatas";
+
+import "FieldSaveData.proto";
+import "ActorSaveData.proto";
+import "PlayerSaveData.proto";
+import "SceneSaveData.proto";
+
+message SaveGameData {
+  map<string, SceneSaveData> scenes = 1;
+  map<string, ActorSaveData> actors = 2;
+  map<string, PlayerSaveData> players = 3;
+  FieldSaveData fields = 4;
+  string time = 5;
+  string currentScene = 6;
+}
