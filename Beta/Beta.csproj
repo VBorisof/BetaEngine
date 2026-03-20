@@ -1,13 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net8.0-android</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFrameworks Condition="'$(INCLUDE_ANDROID)' == 'true'">net8.0;net8.0-android</TargetFrameworks>
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <PublishAot>false</PublishAot>
     <TieredCompilation>false</TieredCompilation>
     <AssemblyName>Beta</AssemblyName>
     <Nullable>enable</Nullable>
-	<MonoGamePlatform>DesktopGL;Android</MonoGamePlatform>
+  	<MonoGamePlatform>DesktopGL;Android</MonoGamePlatform>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../BDSM/bdsm.csproj" />
@@ -20,7 +21,7 @@
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.29.3" />
     <PackageReference Include="MonoGame.Framework.DesktopGL" PrivateAssets="All" Version="3.8.2.1105" />
-	<PackageReference Include="MonoGame.Framework.Android" Version="3.8.2.1105" />
+  	<PackageReference Include="MonoGame.Framework.Android" Version="3.8.2.1105" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />

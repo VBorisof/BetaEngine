@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="BDSM/bdsm.csproj" />
+  <Project Path="ACED/aced.csproj" />
+  <Project Path="Beta.Common/Beta.Common.csproj" />
+  <Project Path="Beta.Gui/Beta.Gui.csproj" />
+  <Project Path="Beta.GuiHandlerGenerator/Beta.GuiHandlerGenerator.csproj" />
+  <Project Path="Beta.Input/Beta.Input.csproj" />
+  <Project Path="Beta.Logging/Beta.Logging.csproj" />
+  <Project Path="Beta.Text/Beta.Text.csproj" />
+  <Project Path="Beta/Beta.csproj" />
+  <Project Path="ExampleGame/ExampleGame.csproj" />
+</Solution>
