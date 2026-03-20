@@ -116,7 +116,7 @@ actor player {
     }
 
     verb USE something {
-        charlie.say("I'm using something on myself.")
+        player.say("I'm using something on myself.")
     }
 }
 ```
