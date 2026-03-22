@@ -127,8 +127,13 @@ Main script can then be:
 import "myScene.bs"
 import "player.bs"
 
+myScene.add(player)
+
 setscene(myScene)
 setplayer(player)
+
+player.move(500, 500)
+player.say("Hello!")
 
 requeststateplaying()
 ```
